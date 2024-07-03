@@ -3,8 +3,8 @@
         var ctx = c.getContext("2d");
 
         //making the canvas full screen
-        c.height = window.innerHeight;
-        c.width = window.innerWidth;
+        c.height = 3840;
+        c.width = 2160;
 
         //chinese characters - taken from the unicode charset
         var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
