@@ -3,15 +3,15 @@
         var ctx = c.getContext("2d");
 
         //making the canvas full screen
-        c.height = 3840;
-        c.width = 2160;
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
         var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 
-        var font_size = 10;
+        var font_size = 5;
         var columns = c.width/font_size; //number of columns for the rain
         //an array of drops - one per column
         var drops = [];
